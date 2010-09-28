@@ -1,0 +1,10 @@
+A single class for getting text from lipsum.com:
+
+get the specified number of words
+GetWords(int count)
+
+get the specified number of paragraphs
+GetParagraphs(int count)
+
+get the specified number of lists
+GetLists(int count)
