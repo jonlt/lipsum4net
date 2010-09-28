@@ -1,4 +1,4 @@
-A single class for getting text from lipsum.com:
+A single class for getting text from lipsum.com (lorem ipsum):
 
 Get a specified number of words:
 Lipsum.GetWords(int count);
