@@ -1,10 +1,16 @@
 A single class for getting text from lipsum.com:
 
-get the specified number of words
-GetWords(int count)
+Get a specified number of words:
+Lipsum.GetWords(int count);
 
-get the specified number of paragraphs
-GetParagraphs(int count)
+Get a specified number of paragraphs
+Lipsum.GetParagraphs(int count);
 
-get the specified number of lists
-GetLists(int count)
+Get a specified number of lists
+Lipsum.GetLists(int count);
+
+
+Each method returns a html string containing the requested data.
+E.g.
+
+Lipsum.GetWords(5); // could return "<p>\nNunc in tortor in risus.\n</p>"
